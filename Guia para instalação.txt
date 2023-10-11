@@ -1,0 +1,26 @@
+curso laravel 10 
+docker 
+
+
+docker composer up -d : cria os containner necessarios
+
+
+docker compose exec -it sistema_gestao bash : acessa o containner
+
+dentro do containner rodar o comando : composer install 
+parainstalar as dependencias do projeto dentro do containner
+
+criar a key do laravel dentro do containner: php artisan key:generate
+
+
+Acesso banco de dados
+http://localhost:8899/
+servidor: mysql
+usuario : root
+senha: root
+
+Acesso do sistema
+http://localhost:8989/
+
+git hub acesso ao projeto
+https://github.com/VictorPadovan1997/mentoria-laravel-10
